@@ -1,0 +1,201 @@
+.none{
+    display: none;
+}
+.input{
+    margin-top: 5em;
+}
+.compteur{
+    margin-top: 5em;
+}
+.pendu{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 16px;
+    top: 20px;
+}
+.barre1{
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 10px;
+    bottom: 0;
+}
+.barre2{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 300px;
+    bottom: 0;
+    left: 35px;
+}
+.barre3{
+    position: absolute;
+    background-color: black;
+    width: 120px;
+    height: 10px;
+    left: 35px;
+}
+.barre4{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 50px;
+    left: 145px;
+}
+.barre5{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 60px;
+    left: 55px;
+    top: -2px;
+    transform: rotate(45deg);
+}
+.barre6{
+    position: absolute;
+    border: 8px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 48px;
+    left: 122.5px;
+}
+
+
+.barre7-1{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 100px;
+    top: 100px;
+    left: 145px;
+}
+.barre7-2{
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 10px;
+    top: 125px;
+    left: 110px;
+}
+.barre7-3{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 50px;
+    top: 187px;
+    left: 128px;
+    transform: rotate(45deg);
+}
+.barre7-4{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 50px;
+    top: 187px;
+    left: 162px;
+    transform: rotate(-45deg);
+}
+
+.text1{
+    font-size: 5em;
+    text-align: center;
+}
+.lettres{
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: -4em;
+}
+.compteur{
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: -5em;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.inputchoix{
+    font-size: 3em;
+    width: 500px;
+}
+.input{
+    font-size: 3em;
+    width: 1em;
+    text-align: center;
+}
+
+.ens-input{
+    display: flex;
+    justify-content: center;
+}
+.ens-input1{
+    display: flex;
+    justify-content: center;
+}
+body{
+    overflow: hidden;
+}
+
+.btn{
+    background-color: rgb(49, 71, 134);
+    color: white;
+    font-size: 1.2em;
+    height: 4em;
+    width: 8em;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 1em;
+    margin-top: 1em;
+    border-radius: 1.5em;
+    border: white;
+}
+
+@media (max-width: 767px) {
+    .jeupendu{
+        transform: scale(.5);
+    }
+    .pendu{
+        position: relative;
+        top: -150px;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        position: relative;
+        top: -400px;
+    }
+    h2{
+        position: relative;
+        top: -400px;
+    }
+    .ens-input{
+        position: relative;
+        top: -400px;
+    }
+    body{
+        overflow: visible;
+    }
+    .btn{
+        position: relative;
+        left: 300%;
+        margin-top: 5em;
+        border-radius: 1.2em;
+        top: -180px;
+        left: -150px;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    
+}

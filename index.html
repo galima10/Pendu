@@ -7,7 +7,38 @@
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <div class="jeupendu">
+        <div class="pendu">
+            <div class="barre1 none" id="barre"></div>
+            <div class="barre2 none" id="barre"></div>
+            <div class="barre3 none" id="barre"></div>
+            <div class="barre4 none" id="barre"></div>
+            <div class="barre5 none" id="barre"></div>
+            <div class="barre6 none" id="barre"></div>
+            <div class="barre7 none" id="barre">
+                <div class="barre7-1 none" id="barre7"></div>
+                <div class="barre7-2 none" id="barre7"></div>
+                <div class="barre7-3 none" id="barre7"></div>
+                <div class="barre7-4 none" id="barre7"></div>
+            </div>
+        </div>
+        <h1 id="h1">Le jeu du Pendu</h1>
+        <h2 id="h2">Choisissez un mot à faire deviner !</h1>
+        <div class="ens-input">
+            <input type="text" id="inputchoix" autofocus class="inputchoix" oninput="removeAccentsAndUpperCase(this)">
+        </div>
+        <div class="text1" id="text1"></div>
+
+        <div class="ens-input1">
+            <input type="text" id="input" class="input none" oninput="removeAccentsAndUpperCase(this)" maxlength="1">
+        </div>
+            <div class="compteur none"></div>
+        <div class="lettres"></div>
+        <button class="btn">Recommencer</button>
+    </div>  
     
+
+
 </body>
 <script src="index.js"></script>
 </html>
