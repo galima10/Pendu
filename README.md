@@ -1,0 +1,1 @@
+Le jeu est simple : un joueur entre le mot à deviner qui est ensuite transformé en barre avec le même nombre de caractères. Un autre joueur doit entrer ensuite des lettres une à une pour tenter de deviner le mot en 7 essais. Une lettre trouvée remplace dans le mot à deviner par celle-ci. Une mauvaise lettre fait perdre un essai et va dans la liste des mauvaises lettres.
